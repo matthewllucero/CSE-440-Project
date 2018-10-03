@@ -12,8 +12,6 @@ public class DestroyRocket : MonoBehaviour {
         if (col.gameObject.name == "rocket")
         {
             Destroy(col.gameObject);
-            print("collision");
-            print(" ");
         }
     }
 }
